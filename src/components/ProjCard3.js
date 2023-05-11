@@ -53,7 +53,7 @@ export default function ProjCard3() {
       <CardMedia
         component="img"
         height="194"
-        image="Capture.png"
+        image="https://photos.app.goo.gl/itVSzorvMaxRFvRx9"
         alt="Capture.png"
       />
       <CardContent>
