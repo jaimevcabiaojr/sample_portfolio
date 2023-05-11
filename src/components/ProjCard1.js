@@ -53,7 +53,7 @@ export default function ProjCard1() {
       <CardMedia
         component="img"
         height="194"
-        image="Capture2.png"
+        image="Capture2.PNG"
         alt="Capture2.png"
       />
       <CardContent>
