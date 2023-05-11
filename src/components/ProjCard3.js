@@ -54,7 +54,7 @@ export default function ProjCard3() {
         component="img"
         height="194"
         image="Capture.png"
-        alt="Paella dish"
+        alt="Capture.png"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
