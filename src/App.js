@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { AppBar, Container, Box } from "@mui/material";
+import ResponsiveAppBar, { NavbarMUI } from "./components/AppBar";
+import { Component } from "react";
+import { Button, CssBaseline, GlobalStyles } from "@mui/material";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import TopMain from "./components/TopMain";
+import AppFooter from "./components/AppFooter";
+import Sum from "./components/TopMain";
+import ComplexGrid from "./components/MiddleMain";
+import { green, grey, red, yellow } from "@mui/material/colors";
+import Projects from "./components/MainProj";
+// import RecipeReviewCard from "./components/ProjCard1";
+// import SwipeableTextMobileStepper from "./components/Carousel";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={{ backgroundColor: green[400] }}>
+      <NavbarMUI />
+      <Box sx={{ m: 5 }}>
+        <Sum />
+        <Projects/>
+        {/* <RecipeReviewCard/> */}
+{/* <SwipeableTextMobileStepper/> */}
+        
+        {/* <ComplexGrid /> */}
+       
+      </Box>
+      <AppFooter />
+    </Box>
   );
 }
 
