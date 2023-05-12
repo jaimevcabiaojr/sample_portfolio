@@ -9,7 +9,7 @@ import Collapse from "@mui/material/Collapse";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import { red } from "@mui/material/colors";
+import { blue, red } from "@mui/material/colors";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -42,11 +42,11 @@ export default function ProjCard1() {
             1
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        // action={
+        //   <IconButton aria-label="settings">
+        //     <MoreVertIcon />
+        //   </IconButton>
+        // }
         title="Clone Site "
         subheader="Globe Telecom Ph.(solo)"
       />
@@ -63,7 +63,7 @@ export default function ProjCard1() {
       </CardContent>
       <CardActions disableSpacing>
       <IconButton
-          sx={{ ml: 3 }}
+          sx={{ ml: 3 ,color:blue [500]}}
           aria-label="share"
           href="https://clonesite-liard.vercel.app/"
         >

@@ -9,7 +9,7 @@ import Collapse from "@mui/material/Collapse";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-import { red } from "@mui/material/colors";
+import { blue, red } from "@mui/material/colors";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -42,11 +42,11 @@ export default function ProjCard2() {
             2
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        // action={
+        //   <IconButton aria-label="settings">
+        //     <MoreVertIcon />
+        //   </IconButton>
+        // }
         title="Full Site with Database"
         subheader="Joiners Club (group) "
       />
@@ -63,7 +63,7 @@ export default function ProjCard2() {
       </CardContent>
       <CardActions disableSpacing>
       <IconButton
-          sx={{ ml: 3 }}
+          sx={{ ml: 3,color:blue [500] }}
           aria-label="share"
           href="https://github.com/jaimevcabiaojr/mini_project2.git"
         >
