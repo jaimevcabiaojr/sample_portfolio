@@ -4,9 +4,6 @@ import { grey, red, yellow } from "@mui/material/colors";
 import React, { Component } from "react";
 import ButtonBase from "@mui/material/ButtonBase";
 import { styled } from "@mui/material/styles";
-import ProjCard1 from "./ProjCard1";
-import ProjCard2 from "./ProjCard2";
-import ProjCard3 from "./ProjCard3";
 
 const Img = styled("img")({
   margin: "auto",
@@ -15,9 +12,9 @@ const Img = styled("img")({
   maxHeight: "100%",
 });
 
-export default function Projects() {
+export default function Sum() {
   return (
-    <Paper  
+    <Paper
       sx={{
         p: 2,
         margin: "auto",
@@ -30,29 +27,51 @@ export default function Projects() {
         backgroundColor: grey[500],
         // backgroundColor: (theme) =>
         // theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-        display:'flex',alignItems:'center',justifyContent:'center'
       }}
     >
-      <Grid sx={{ml:3}} container spacing={2}>
+      <Grid container spacing={2}>
         <Grid item lg={12} sx={{ textAlign: "center" }}>
           <Typography sx={{ fontWeight: 500, color: "white" ,mt:5,mb:5}} variant="h1">
             {" "}
-            My Sample Projects
+            Welcome to My Page
           </Typography>
          
         </Grid>
+        <Grid item lg={12} sx={{ textAlign: "center" ,mb:5}}>
+        <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            Hi Thank You For Taking The Time On Checking My Website
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            This Site is a Testament that Everything can be Learned
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            Four Months Ago I Have No Knowledge in HTML Css or Javascript
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            And By the help Of Kodego , And with My Endless Search For  Self Improvement ,
+            
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            Perseverance,Hard Work ,100% Attendace and Multiple Code Reading . 
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            I Was Able to  Gradutate And be A part of top 5 of Our class.
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            Sometimes It only takes One Small Step in Making Your 
+          </Typography>
+          <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
+            {" "}
+            Greatest Dream Come True.
+          </Typography>
 
-        <Grid item lg={4} md={6} sm={12} sx={{mb:5}}>
-       <ProjCard1/>
-
-        </Grid>
-        <Grid item lg={4} md={6} sm={12} sx={{mb:5}}>
-       
-        <ProjCard2/>
-        </Grid>
-        <Grid item lg={4} md={6} sm={12} sx={{mb:5}}>
-       
-        <ProjCard3/>
         </Grid>
 
        

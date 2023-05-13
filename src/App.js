@@ -11,6 +11,8 @@ import Sum from "./components/TopMain";
 import ComplexGrid from "./components/MiddleMain";
 import { green, grey, red, yellow } from "@mui/material/colors";
 import Projects from "./components/MainProj";
+import AboutPage from "./components/AboutPage";
+
 // import RecipeReviewCard from "./components/ProjCard1";
 // import SwipeableTextMobileStepper from "./components/Carousel";
 
@@ -25,7 +27,7 @@ function App() {
 {/* <SwipeableTextMobileStepper/> */}
         
         {/* <ComplexGrid /> */}
-       
+       <AboutPage/>
       </Box>
       <AppFooter />
     </Box>
