@@ -28,6 +28,9 @@ export default function Projects() {
         flexGrow: 1,
         borderRadius: 10,
         backgroundColor: grey[500],
+        backgroundAttachment:'fixed',
+        backgroundSize:'cover',
+        backgroundImage: `url(${require('../images/IMG_20181013_172245.jpg')})`,
         // backgroundColor: (theme) =>
         // theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
         display:'flex',alignItems:'center',justifyContent:'center'

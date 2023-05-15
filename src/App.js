@@ -9,7 +9,7 @@ import TopMain from "./components/TopMain";
 import AppFooter from "./components/AppFooter";
 import Sum from "./components/TopMain";
 import ComplexGrid from "./components/MiddleMain";
-import { green, grey, red, yellow } from "@mui/material/colors";
+import { blue, green, grey, pink, red, yellow } from "@mui/material/colors";
 import Projects from "./components/MainProj";
 import AboutPage from "./components/AboutPage";
 
@@ -18,7 +18,7 @@ import AboutPage from "./components/AboutPage";
 
 function App() {
   return (
-    <Box sx={{ backgroundColor: green[400] }}>
+    <Box sx={{ backgroundColor: yellow[800] }}>
       <NavbarMUI />
       <Box sx={{ m: 5 }}>
         <Sum />

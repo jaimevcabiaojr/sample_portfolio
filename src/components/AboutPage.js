@@ -1,3 +1,4 @@
+
 import { CenterFocusStrong, Margin } from "@mui/icons-material";
 import { Box, Container, Grid, Paper, Typography } from "@mui/material";
 import { grey, red, yellow } from "@mui/material/colors";
@@ -18,33 +19,40 @@ export default function Sum() {
       sx={{
         p: 2,
         margin: "auto",
-        mt:20,
-        mb:20,
+        mt: 20,
+        mb: 20,
         maxWidth: 1300,
         // height: 650,
         flexGrow: 1,
         borderRadius: 10,
         backgroundColor: grey[500],
+        backgroundAttachment:'fixed',
+        backgroundSize:'cover',
+        backgroundImage: `url(${require('../images/IMG_20181013_172244.jpg')})`,
         // backgroundColor: (theme) =>
         // theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
       }}
     >
       <Grid container spacing={2}>
         <Grid item lg={12} sx={{ textAlign: "center" }}>
-          <Typography sx={{ fontWeight: 500, color: "white" ,mt:5,mb:5}} variant="h1">
-            {" "}
-            Welcome to My Page
+          <Typography
+            sx={{ fontWeight: 500, color: "white", mt: 5, mb: 5 }}
+            variant="h1"
+          >
+            {"About Me "}
           </Typography>
-         
         </Grid>
-        <Grid item lg={12} sx={{ textAlign: "center" ,mb:5}}>
-        <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
-            {" "}
-            Hi Thank You For Taking The Time On Checking My Website
+        <Grid item lg={12} sx={{ textAlign: "center", mb: 5 }}>
+          <Typography
+            sx={{ textAlign: "center", fontWeight: 500, color: "white" }}
+            variant="h5"
+          >
+            {
+              "  Hi Im Jaime  Vidanes Cabiao Jr, ive been a Technician almost Half of my life. hence we  run a Electronic Repair Shop  "
+            }
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
-            This Site is a Testament that Everything can be Learned
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
@@ -52,54 +60,26 @@ export default function Sum() {
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
-            And By the help Of Kodego , And with My Endless Search For  Self Improvement ,
-            
+            And By the help Of Kodego , And with My Endless Search For Self
+            Improvement ,
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
-            Perseverance,Hard Work ,100% Attendace and Multiple Code Reading . 
+            Perseverance,Hard Work ,100% Attendace and Multiple Code Reading .
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
-            I Was Able to  Gradutate And be A part of top 5 of Our class.
+            I Was Able to Gradutate And be A part of top 5 of Our class.
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
-            Sometimes It only takes One Small Step in Making Your 
+            Sometimes It only takes One Small Step in Making Your
           </Typography>
           <Typography sx={{ fontWeight: 500, color: "white" }} variant="h5">
             {" "}
             Greatest Dream Come True.
           </Typography>
-
         </Grid>
-
-       
-        {/* <Grid item xs={12} sm container>
-          <Grid item xs container direction="column" spacing={2}>
-            <Grid item xs>
-              <Typography gutterBottom variant="subtitle1" component="div">
-                Standard license
-              </Typography>
-              <Typography variant="body2" gutterBottom>
-                Full resolution 1920x1080 • JPEG
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                ID: 1030114
-              </Typography>
-            </Grid>
-            <Grid item>
-              <Typography sx={{ cursor: "pointer" }} variant="body2">
-                Remove
-              </Typography>
-            </Grid>
-          </Grid>
-          <Grid item>
-            <Typography variant="subtitle1" component="div">
-              $19.00
-            </Typography>
-          </Grid>
-        </Grid> */}
       </Grid>
     </Paper>
   );

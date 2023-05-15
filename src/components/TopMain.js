@@ -1,4 +1,4 @@
-import { CenterFocusStrong, Margin } from "@mui/icons-material";
+import { CenterFocusStrong, Margin, Public } from "@mui/icons-material";
 import { Box, Container, Grid, Paper, Typography } from "@mui/material";
 import { grey, red, yellow } from "@mui/material/colors";
 import React, { Component } from "react";
@@ -25,6 +25,10 @@ export default function Sum() {
         flexGrow: 1,
         borderRadius: 10,
         backgroundColor: grey[500],
+        backgroundAttachment:'fixed',
+        backgroundSize:'cover',
+        backgroundImage: `url(${require('../images/IMG_20181013_172245.jpg')})`,
+    
         // backgroundColor: (theme) =>
         // theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
       }}
