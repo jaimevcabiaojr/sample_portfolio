@@ -27,7 +27,7 @@ export default function Sum() {
         backgroundColor: grey[500],
         backgroundAttachment:'fixed',
         backgroundSize:'cover',
-        backgroundImage: `url(${require('../images/IMG_20181013_172245.jpg')})`,
+        backgroundImage: `url(${require('../images/img_elektroniikka-e1550203651118.jpg')})`,
     
         // backgroundColor: (theme) =>
         // theme.palette.mode === 'dark' ? '#1A2027' : '#fff',

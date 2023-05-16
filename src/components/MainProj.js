@@ -30,10 +30,10 @@ export default function Projects() {
         backgroundColor: grey[500],
         backgroundAttachment:'fixed',
         backgroundSize:'cover',
-        backgroundImage: `url(${require('../images/IMG_20181013_172245.jpg')})`,
+        backgroundImage: `url(${require('../images/image.jpg')})`,
         // backgroundColor: (theme) =>
         // theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-        display:'flex',alignItems:'center',justifyContent:'center'
+        // display:'flex',alignItems:'center',justifyContent:'center'
       }}
     >
       <Grid sx={{ml:3}} container spacing={2}>
