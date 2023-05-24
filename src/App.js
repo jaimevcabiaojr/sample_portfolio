@@ -18,6 +18,7 @@ import AboutPage from "./components/AboutPage";
 
 function App() {
   return (
+    <Box >
     <Box sx={{ backgroundColor: yellow[800] }}>
       <NavbarMUI />
       <Box sx={{ m: 5 }}>
@@ -30,6 +31,7 @@ function App() {
        <AboutPage/>
       </Box>
       <AppFooter />
+    </Box>
     </Box>
   );
 }

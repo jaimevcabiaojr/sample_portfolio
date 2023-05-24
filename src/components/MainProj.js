@@ -17,7 +17,7 @@ const Img = styled("img")({
 
 export default function Projects() {
   return (
-    <Paper  
+    <Paper  id ="proj"
       sx={{
         p: 2,
         margin: "auto",

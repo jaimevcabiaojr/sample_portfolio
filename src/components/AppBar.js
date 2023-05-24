@@ -46,13 +46,13 @@ export const NavbarMUI = () => {
             My WebSite
           </Typography>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <Button sx={{ color: "white" }} href="#">
+            <Button sx={{ color: "white" }} href="#home">
               Home
             </Button>
-            <Button sx={{ color: "white" }} href="#">
+            <Button sx={{ color: "white" }} href="#about"> 
               About
             </Button>
-            <Button sx={{ color: "white" }} href={<Projects/>}  >
+            <Button sx={{ color: "white" }} href="#proj"  >
               Projects
             </Button>
           </Box>
